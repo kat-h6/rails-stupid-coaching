@@ -1,0 +1,11 @@
+<div id="container">
+  <h2>
+    <%= params["question"] %>
+  </h2>
+  <p>-You</p>
+  <h2>
+    <%= @answer %>
+  </h2>
+  <p>-Your coach</p>
+  <%= link_to "ask your coach again", ask_path %>
+</div>
